@@ -1,21 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
+import SuspenseFallback from "../components/SuspenseFallback"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/Layout"
+import "../components/Layout.css"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+  <React.Suspense fallback={<SuspenseFallback />}>
+    <div className="App">
+      <Layout />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  </React.Suspense>
 )
 
 export default IndexPage
