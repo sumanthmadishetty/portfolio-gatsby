@@ -3,7 +3,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline !important;
+  text-decoration: underline;
 }
 
 html,
@@ -19,4 +19,21 @@ body {
 
 .typeFont {
   font-family: "Cutive Mono", monospace;
+}
+
+.noDecoration:hover {
+  text-decoration: none !important;
+}
+
+.projectsList {
+  display: grid;
+  grid-template-columns: repeat(4, 5fr);
+  padding: 20px;
+  grid-gap: 25px;
+}
+
+@media (max-width: 900px) {
+  .projectsList {
+    grid-template-columns: 1fr;
+  }
 }

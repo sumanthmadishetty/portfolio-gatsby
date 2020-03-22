@@ -6,4 +6,6 @@ module.exports = {
   stackoverflow: require("./stackoverflow.svg"),
   github: require("./github.svg"),
   pageOneBackground: require("./pageOneBackground.jpg"),
+  pageTwoBackground: require("./pageTwoBackground.jpg"),
+  abhipaisa: require("./abhipaisa.png"),
 }

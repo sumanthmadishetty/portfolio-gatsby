@@ -1,6 +1,7 @@
 import React from "react"
 import ReactPageScroller from "react-page-scroller"
 import Pageone from "./PageOne"
+import PageTwo from "./PageTwo"
 
 export default function MainContainer(props) {
   const { onPageChange, currentPage } = props
@@ -13,9 +14,7 @@ export default function MainContainer(props) {
         pageOnChange={onPageChange}
       >
         <Pageone />
-        <div style={{ backgroundColor: "red", height: "100%" }}>
-          Second Page
-        </div>
+        <PageTwo />
         <div style={{ backgroundColor: "blue", height: "100%" }}>
           Third Page
         </div>

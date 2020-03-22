@@ -4,7 +4,7 @@ import "./styles.css"
 import MainContainer from "./MainContainer"
 
 export default function Layout(props) {
-  const [page, setPage] = useState(0)
+  const [page, setPage] = useState(1)
 
   function onPageChange(a) {
     setPage(a)
