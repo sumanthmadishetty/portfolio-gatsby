@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+html,
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  /* font-family: "Cutive Mono", monospace !important; */
+}
+
+.layoutContainer {
+  height: 100vh;
+}
+
+.typeFont {
+  font-family: "Cutive Mono", monospace;
+}
