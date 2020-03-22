@@ -10,6 +10,7 @@ module.exports = {
   githubBlack: require("./githubBlack.png"),
   githubWhite: require("./githubWhite.png"),
   mainBackground: require("./mainBackground.jpg"),
+  author: require("./author.JPG"),
   linkedinWhite: require("./linkedinWhite.png"),
   linkedinBlack: require("./linkedinBlack.png"),
   techsophyLogo: require("./techsophyLogo.jpg"),
@@ -18,5 +19,5 @@ module.exports = {
   tahakomLogo: require("./tahkom.png"),
   bmsLogo: require("./visionplanner.png"),
   carretDown: require("./carretDown.svg"),
-  carretUp: require("./carretUp.svg"),
-}
+  carretUp: require("./carretUp.svg")
+};

@@ -5,7 +5,7 @@ const DATA = [
   {
     icon: envelope,
     title: "Email: ",
-    value: "sumanth5812@gmail.com",
+    value: "mailme@sumanth.tech",
   },
   {
     icon: calendar,
